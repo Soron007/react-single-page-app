@@ -6,10 +6,10 @@ import React from 'react'
 const Home = () => {
     return (
         <>
-            <div className='home'>
+            <div className='home' id='home'>
 
                 <main>
-                    <h1>Deep Tech</h1>
+                    <h1>Tech==Splurge</h1>
                     <p>We mitigate all your deep rooted tech issues</p>
 
                 </main>

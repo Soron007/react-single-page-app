@@ -10,10 +10,20 @@ nav{
   background-color: $first;
   top: 0%;
   z-index:10;
+  
+  
+  
 
 
   > h1{
     text-transform: uppercase;
+    color: $second;
+    text-decoration: none;
+
+    &:hover{
+      color: rgb(141, 0, 141);
+      cursor: pointer;
+    }
   }
 
   > main{
